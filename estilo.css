@@ -1,0 +1,21 @@
+body{
+    background-color: gray;
+}
+
+#titulo{
+    background-color: black;
+    margin-left: 350px;
+    margin-right: 350px;
+    border-radius: 20px;
+    text-align: center;
+    color: aliceblue;
+    font-family:cursive;
+}
+
+ul{
+    background-color: white;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 10px;
+}
