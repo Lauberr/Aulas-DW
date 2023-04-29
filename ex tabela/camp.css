@@ -45,3 +45,8 @@ thead {
     position: sticky;
     top: 0px;
 }
+
+tbody > tr:hover {
+    background-color: rgb(85, 83, 83);
+    color:aliceblue;
+}
