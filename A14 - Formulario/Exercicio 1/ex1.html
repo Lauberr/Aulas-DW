@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 1</title>
+
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <form action="#" method="get">
+
+        <label for="nome_id"><strong>Nome:</strong></label>
+        <input type="text" id="nome_id" placeholder="Digite o seu nome">
+        <br><br>
+
+        <label for="email_id"><strong>E-mail:</strong></label>
+        <input type="email" id="email_id" placeholder="nome@email.com">
+        <br><br>
+
+        <label for="password_id"><strong>Senha:</strong></label>
+        <input type="password" id="password_id" placeholder="Senha123">
+        <br><br>
+        
+        <hr>
+
+        <p>Tipo de cadastro:</p>
+        <label for="aluno_id">Aluno:</label>
+        <input type="radio" name="tipo_cad" id="aluno_id">
+        
+        <label for="serv_id">Servidor:</label>
+        <input type="radio" name="tipo_cad" id="serv_id">
+        
+        <label for="vis_id">Visitante:</label>
+        <input type="radio" name="tipo_cad" id="vis_id">
+        <br><br>
+
+        <hr>
+
+        <p>Campus da UTFPR:</p>
+        <select name="campus" id="campus_id" size="4">
+            <option value="CMourao">Campo Mourão</option>
+            <option value="apucarana">Apucarana</option>
+            <option value="cornelio">Cornélio Procópio</option>
+            <option value="curitiba">Curitiba</option>
+        </select>
+        <br><br>
+        
+        <hr>
+
+        <p>Disciplinas que cusa atualmente:</p>
+        <input type="checkbox" name="Disciplinas" id="DW_id">
+        <label for="DW_id">Desenvolvimento Web I</label>
+        <br>
+
+        <input type="checkbox" name="Disciplinas" id="LP_id">
+        <label for="LP_id">Linguagem de Programação II</label>
+        <br>
+        
+        <input type="checkbox" name="Disciplinas" id="BD_id">
+        <label for="BD_id">Banco de Dados</label>
+        <br>
+        
+        <input type="checkbox" name="Disciplinas" id="RC_id">
+        <label for="RC_id">Rede de Computadores I</label>
+        <br><br>
+
+        <hr>
+
+        <p>Quais são seus principais hobbies?</p>
+        <textarea name="mensagem" rows="10" cols="30" placeholder="Digite aqui..."></textarea>
+        <br><br>
+
+        <button>Enviar Dados</button>
+        <button>Limpar Dados</button>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,118 @@
+*{
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --cinza: #555555;
+    --azul: #1E2772;
+    --laranja: #FD7401;
+    --cinzaClaro: #F1F3F6;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    width: 100vw;
+    height: 100vh;
+}
+
+/*===============================| PRIMEIRA COLUNA : LOGIN |==============================*/
+
+.coluna1{
+    display: grid;
+    padding: 30px;
+    padding-bottom: 25%;
+}
+
+/*-------------------------------| LINKS - LOGIN E REGISTER |-----------------------------*/
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+    font-weight: 900;
+}
+
+#login {
+    color: var(--laranja);
+}
+
+#register{
+    color: var(--azul);
+}
+
+#login, #register{
+    text-decoration: none;
+}
+
+/*---------------------------------| LOGO E DESCRIÇÃO |-------------------------------*/
+
+#logoNW{
+    padding-top: 15%;
+    margin: auto;
+}
+
+
+#descricao{
+    margin: auto;
+    font-weight: 900;
+}
+
+/*---------------------------------| LOGIN DO USUÁRIO |--------------------------------*/
+
+label{
+    color: var(--cinza);
+    font-size: small;
+}
+
+.entrada{
+    display: flex;
+    height: 21%;
+    margin-bottom: 15px;
+}
+
+.entrada > input{
+    width: 80%;
+    background-color: var(--cinzaClaro);
+    border: 0;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+    padding: 15px;
+}
+
+.entrada > img{
+    background-color: var(--cinzaClaro);
+}
+
+/*---------------------------------| AJUDA E ENVIO DE DADOS |-------------------------------*/
+
+#forgotPass{
+    text-align: right;
+    font-size: small;
+    margin-top: -45px;
+}
+
+button{
+    width: 100%;
+    margin: auto;
+    background-color: var(--laranja);
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    box-shadow: 3px 3px 5px rgb(251, 197, 181);
+}
+
+
+/*==============================| SEGUNDA COLUNA : ILUSTRAÇÃO |===============================*/
+
+.coluna2{
+    display: flex;
+    background-color: var(--cinzaClaro);
+}
+
+#ilustracao{
+    margin: auto;
+}

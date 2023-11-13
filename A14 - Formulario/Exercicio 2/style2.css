@@ -1,0 +1,51 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to bottom right, rgb(5, 0, 8),rgb(55, 3, 85));
+    background-attachment: fixed;
+}
+
+.container{
+    margin: auto;
+    margin-top: 5%;
+    width: 50vw;
+    border: 1px solid gray;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.tittle{
+    border-bottom: 0.5px solid gray;
+    padding: 20px 30px;
+    font-size: larger;
+}
+
+form{
+    display: grid;
+    padding: 30px;
+    grid-template-columns: auto auto;
+    gap: 15px;
+}
+
+input , textarea{
+    padding: 10px;
+    border: 0.5px solid gray;
+    border-radius: 7px;
+}
+
+button{
+    padding: 10px;
+    border: 0.5px solid gray;
+    border-radius: 7px;
+    background-color: blueviolet;
+    color: rgb(251, 207, 207);
+    width: 150px;
+}
+
+
+#assunto_id, #text{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}

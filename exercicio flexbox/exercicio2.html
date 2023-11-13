@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 2</title>
+    
+    <style>
+        body{
+            background-color: black;
+            overflow: hidden;
+        }
+
+        .container{
+            background-color: black;
+            height: 100vh;
+            display: flex;
+        }
+        
+        .conteudo{
+            flex-direction: column;
+            display: flex;
+        }
+
+        header{
+            background-color: rgb(255, 231, 126);
+            width: 80vw;
+            height: 15vh;
+        }
+        
+        aside{
+            background-color: rgb(149, 207, 255);
+            width: 20vw;            
+        }
+
+        main{
+            background-color: rgb(152, 255, 195);
+            flex-grow: 1;
+        }
+
+        footer{
+            background-color: rgb(247, 195, 203);
+            width: 80vw;
+            height: 15vh;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <aside></aside>
+        
+        <div class="conteudo">
+            <header></header>
+            <main></main>
+            <footer></footer>
+        </div>
+    </div>
+    
+</body>
+</html>

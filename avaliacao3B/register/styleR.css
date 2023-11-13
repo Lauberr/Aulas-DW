@@ -1,0 +1,117 @@
+*{
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --cinza: #555555;
+    --azul: #1E2772;
+    --laranja: #FD7401;
+    --cinzaClaro: #F1F3F6;
+    
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/*============================| PRIMEIRA COLUNA : CADASTRO |=============================*/
+
+.coluna1{
+    display: grid;
+    padding: 30px;
+    padding-bottom: 25%;
+}
+
+/*------------------------------| LINKS - LOGIN E REGISTER |-------------------------------*/
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin: auto;
+    font-weight: 900;
+}
+
+#login {
+    color: var(--azul);
+}
+
+#register{
+    color: var(--laranja);
+}
+
+.links > a{
+    text-decoration: none;
+}
+
+/*---------------------------------| LOGO E DESCRIÇÃO |---------------------------------*/
+
+
+#logoNW{
+    padding-top: 15%;
+    margin: auto;
+}
+
+#descricao{
+    margin: auto;
+    font-weight: 900;
+}
+
+
+/*-------------------------------| CADASTRO DO USUÁRIO |-------------------------------*/
+
+
+label{
+    color: var(--cinza);
+    font-size: small;
+    margin-top: 20px;
+}
+
+.entradas{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.entradas > input{
+    width: 100%;
+    background-color: var(--cinzaClaro);
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/*---------------------------------| AJUDA E ENVIO DE DADOS |-------------------------------*/
+
+
+#forgotPass{
+    text-align: right;
+    font-size: small;
+}
+
+
+button{
+    width: 100%;
+    margin: auto;
+    background-color: var(--laranja);
+    border: 0px;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+}
+
+
+/*==============================| SEGUNDA COLUNA : ILUSTRAÇÃO |===============================*/
+
+.coluna2{
+    display: flex;
+    background-color: var(--cinzaClaro);
+}
+
+#ilustracao{
+    margin: auto;
+}

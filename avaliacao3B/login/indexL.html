@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="styleL.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;1,400;1,600&display=swap');
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="coluna1">
+            
+            <div class="links">
+                <a id="login" href="indexL.html">Login</a>
+                <a id="register" href="../register/indexR.html">Register</a>
+            </div>
+            
+            <br>
+            <img id="logoNW" src="../img/logo.png">
+            
+            <p id="descricao">Login into your account</p><br>
+
+            <div class="entradas">
+
+                <label for="input_email">Email Address</label><br>
+                
+                <div class="entrada">
+                    <input id="input_email" type="email" placeholder="alex@email.com"><br><br>
+                    <img src="../img/frame1.png">
+                </div>
+    
+                <label for="input_password">Password</label><br>
+
+                <div class="entrada">
+                    <input id="input_password" type="password" placeholder="Enter your password">
+                    <img id="img" src="../img/frame2.png">
+                </div>
+                
+
+            </div>
+
+            <a id="forgotPass" onclick="forgot()" href="#">Forgot Password?</a>
+
+            <button onclick="validacaoL()">Login</button>
+
+        </div>
+
+        <div class="coluna2">
+            <img id="ilustracao" src="../img/login-illustrator.png">
+        </div>
+    </div>
+
+    <script src="scriptL.js"></script>
+</body>
+</html>

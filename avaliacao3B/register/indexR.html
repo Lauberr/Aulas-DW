@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+
+    <link rel="stylesheet" href="styleR.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;1,400;1,600&display=swap');
+    </style>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="coluna1">
+            
+            <div class="links">
+                <a id="login" href="../login/indexL.html">Login</a>
+                <a id="register" href="indexR.html">Register</a>
+            </div>
+            
+            <br>
+            <img id="logoNW" src="../img/logo.png">
+            
+            <p id="descricao">Create your account</p><br>
+
+            <div class="entradas">
+
+                <label for="input_name">Full Name</label> <br>
+                <input id="input_name" type="text" placeholder="John Doe"><br>
+
+                <label for="input_email">Email</label><br>
+                <input id="input_email" type="email" placeholder="john@email.com"><br>
+                
+                <label for="input_password">Password</label><br>
+                <input id="input_password" type="password" placeholder="Enter your password">
+
+            </div>
+
+            <a id="forgotPass" onclick="forgot()" href="#">Forgot Password?</a>
+
+            <button onclick="validacaoR()">Create Account</button>
+
+        </div>
+
+        <div class="coluna2">
+            <img id="ilustracao" src="../img/login-illustrator.png">
+        </div>
+    </div>
+
+    <script src="scriptR.js"></script>
+</body>
+</html>
