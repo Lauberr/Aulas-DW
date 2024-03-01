@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+:root{
+    --roxo: #502ba7;
+    --azul: #000000;
+    --grey: grey;
+    
+}
+
+body{
+    /* background-image: linear-gradient(to bottom right, var(--roxo), var(--azul)) ; */
+    background-attachment: fixed;
+}
+
+.container{
+    
+}
